@@ -21,7 +21,7 @@ function calculate() {
     }
 
     else {
-        var result = (billammount * serviceQuality) / numberOfpeople;
+        var result = (billammount * (serviceQuality/100)) / numberOfpeople;
 
         result = Math.round(result * 100) / 100;
 
